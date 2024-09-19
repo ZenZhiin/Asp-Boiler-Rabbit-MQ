@@ -1,0 +1,81 @@
+DEBUG 2024-09-19 17:38:09,623 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-09-19 17:38:10,933 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-09-19 17:38:10,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.Web.Host.Startup.TestWebHostModule, Test.Test.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.TestWebCoreModule, Test.Test.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.TestApplicationModule, Test.Test.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.TestCoreModule, Test.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.EntityFrameworkCore.TestEntityFrameworkModule, Test.Test.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:10,979 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-09-19 17:38:11,292 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 17:38:11,292 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 17:38:11,292 [1    ] o.Configuration.LanguageManagementConfig - Converted Test (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 17:38:11,292 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 17:38:11,953 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Test.Test.EntityFrameworkCore.TestDbContext, Test.Test.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 17:38:12,130 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-09-19 17:38:12,179 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-09-19 17:38:12,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-09-19 17:38:12,197 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Test
+DEBUG 2024-09-19 17:38:12,202 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-09-19 17:38:12,212 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-09-19 17:38:12,221 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Test.Test.MultiTenancy.Tenant, Test.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Test.Test.Authorization.Users.User, Test.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-09-19 17:38:12,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2024-09-19 17:38:12,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Users.Dto.CreateUserDto
+DEBUG 2024-09-19 17:38:12,256 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Users.Dto.UserDto
+DEBUG 2024-09-19 17:38:12,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-09-19 17:38:12,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-09-19 17:38:12,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Roles.Dto.PermissionDto
+DEBUG 2024-09-19 17:38:12,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-09-19 17:38:12,258 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.MultiTenancy.Dto.TenantDto
+ERROR 2024-09-19 17:38:24,197 [5    ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'TestDb' on server 'localhost'.
+ERROR 2024-09-19 17:38:24,197 [1    ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'TestDb' on server 'localhost'.
+DEBUG 2024-09-19 21:45:24,603 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-09-19 21:45:26,026 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-09-19 21:45:26,060 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.Web.Host.Startup.TestWebHostModule, Test.Test.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.TestWebCoreModule, Test.Test.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,068 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.TestApplicationModule, Test.Test.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.TestCoreModule, Test.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Test.Test.EntityFrameworkCore.TestEntityFrameworkModule, Test.Test.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:26,085 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-09-19 21:45:26,486 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 21:45:26,486 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 21:45:26,487 [1    ] o.Configuration.LanguageManagementConfig - Converted Test (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 21:45:26,487 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-19 21:45:27,427 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyECommerceDbContext, Test.Test.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:27,478 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Test.Test.EntityFrameworkCore.TestDbContext, Test.Test.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-19 21:45:27,842 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-09-19 21:45:27,954 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-09-19 21:45:27,981 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-09-19 21:45:27,999 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Test
+DEBUG 2024-09-19 21:45:28,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-09-19 21:45:28,032 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-09-19 21:45:28,047 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Test.Test.MultiTenancy.Tenant, Test.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Test.Test.Authorization.Users.User, Test.Test.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-09-19 21:45:28,093 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2024-09-19 21:45:28,093 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Users.Dto.CreateUserDto
+DEBUG 2024-09-19 21:45:28,101 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Users.Dto.UserDto
+DEBUG 2024-09-19 21:45:28,102 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-09-19 21:45:28,102 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-09-19 21:45:28,102 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.Roles.Dto.PermissionDto
+DEBUG 2024-09-19 21:45:28,102 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-09-19 21:45:28,103 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Test.Test.MultiTenancy.Dto.TenantDto
+ERROR 2024-09-19 21:45:40,137 [1    ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'TestDb' on server 'localhost'.
+ERROR 2024-09-19 21:45:40,137 [7    ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'TestDb' on server 'localhost'.
