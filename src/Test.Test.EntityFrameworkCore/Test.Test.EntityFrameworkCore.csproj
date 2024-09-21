@@ -22,7 +22,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Test.Test.Core\Test.Test.Core.csproj" />
