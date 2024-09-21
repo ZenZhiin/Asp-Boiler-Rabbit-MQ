@@ -254,3 +254,4 @@ paket-files/
 src/Test.Test.Web.Mvc/secrets.json
 src/Test.Test.Web.Host/secrets.json
 src/Test.Test.Migrator/secrets.json
+/src/Test.Test.Web.Host/App_Data/Logs/Logs.txt
