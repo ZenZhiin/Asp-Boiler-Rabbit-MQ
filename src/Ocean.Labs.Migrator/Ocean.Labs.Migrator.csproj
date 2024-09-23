@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Ocean.Labs.Migrator</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Ocean.Labs.Migrator</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="appsettings.json;log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.Castle.Log4Net" Version="8.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ocean.Labs.Core\Ocean.Labs.Core.csproj" />
+    <ProjectReference Include="..\Ocean.Labs.EntityFrameworkCore\Ocean.Labs.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,329 @@
+DEBUG 2024-09-23 13:03:07,180 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-09-23 13:03:07,939 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-09-23 13:03:07,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ocean.Labs.Web.Host.Startup.LabsWebHostModule, Ocean.Labs.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,957 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ocean.Labs.LabsWebCoreModule, Ocean.Labs.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ocean.Labs.LabsApplicationModule, Ocean.Labs.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ocean.Labs.LabsCoreModule, Ocean.Labs.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Ocean.Labs.EntityFrameworkCore.LabsEntityFrameworkModule, Ocean.Labs.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=8.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:07,965 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-09-23 13:03:08,456 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-23 13:03:08,456 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-23 13:03:08,456 [1    ] o.Configuration.LanguageManagementConfig - Converted Labs (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-23 13:03:08,456 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-09-23 13:03:09,750 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Ocean.Labs.EntityFrameworkCore.LabsDbContext, Ocean.Labs.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-09-23 13:03:09,992 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-09-23 13:03:10,057 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-09-23 13:03:10,075 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-09-23 13:03:10,121 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Labs
+DEBUG 2024-09-23 13:03:10,129 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-09-23 13:03:10,143 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-09-23 13:03:10,155 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Ocean.Labs.MultiTenancy.Tenant, Ocean.Labs.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Ocean.Labs.Authorization.Users.User, Ocean.Labs.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-09-23 13:03:10,200 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2024-09-23 13:03:10,200 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ocean.Labs.Users.Dto.CreateUserDto
+DEBUG 2024-09-23 13:03:10,207 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ocean.Labs.Users.Dto.UserDto
+DEBUG 2024-09-23 13:03:10,209 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ocean.Labs.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-09-23 13:03:10,209 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ocean.Labs.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-09-23 13:03:10,209 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ocean.Labs.Roles.Dto.PermissionDto
+DEBUG 2024-09-23 13:03:10,209 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ocean.Labs.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-09-23 13:03:10,209 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Ocean.Labs.MultiTenancy.Dto.TenantDto
+INFO  2024-09-23 13:03:13,380 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2024-09-23 13:03:13,587 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (76ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,595 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,598 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,601 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,603 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,606 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,610 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,612 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,615 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,618 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,621 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,624 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,628 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,647 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE ([a].[TenantId] IS NULL) AND [a].[Name] = N'Admin'
+INFO  2024-09-23 13:03:13,724 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE [a].[Discriminator] = N'RolePermissionSetting' AND ([a].[TenantId] IS NULL) AND [a].[RoleId] = @__adminRoleForHost_Id_0
+INFO  2024-09-23 13:03:13,738 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE ([a].[TenantId] IS NULL) AND [a].[UserName] = N'admin'
+INFO  2024-09-23 13:03:13,847 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND ([a].[TenantId] IS NULL) AND ([a].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,850 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND ([a].[TenantId] IS NULL) AND ([a].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,853 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND ([a].[TenantId] IS NULL) AND ([a].[UserId] IS NULL)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-09-23 13:03:13,934 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE [a].[TenancyName] = N'Default'
+INFO  2024-09-23 13:03:13,978 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] = @___tenantId_0 AND [a].[Name] = N'Admin'
+INFO  2024-09-23 13:03:13,985 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE [a].[Discriminator] = N'RolePermissionSetting' AND [a].[TenantId] = @___tenantId_0 AND [a].[RoleId] = @__adminRole_Id_1
+INFO  2024-09-23 13:03:13,996 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] = @___tenantId_0 AND [a].[UserName] = N'admin'
+INFO  2024-09-23 13:03:14,108 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR ([a].[TenantId] IS NULL))
+INFO  2024-09-23 13:03:14,250 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR ([a].[TenantId] IS NULL)) AND ([a].[UserId] IS NULL) AND ([a].[TenantId] IS NULL)
+INFO  2024-09-23 13:03:14,288 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2024-09-23 13:03:15,173 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-09-23 13:03:15,469 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2024-09-23 13:03:15,586 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2024-09-23 13:03:15,588 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2024-09-23 13:03:15,590 [1    ] Microsoft.Hosting.Lifetime               - Content root path: D:\Ocean.Labs\8.4.0\aspnet-core\src\Ocean.Labs.Web.Host
+INFO  2024-09-23 13:03:16,353 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ocean.Labs.Web.Host.Controllers.HomeController.Index (Ocean.Labs.Web.Host)'
+INFO  2024-09-23 13:03:16,465 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ocean.Labs.Web.Host.Controllers.HomeController (Ocean.Labs.Web.Host).
+INFO  2024-09-23 13:03:16,889 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (23ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-09-23 13:03:16,960 [5    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-09-23 13:03:16,972 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Ocean.Labs.Web.Host.Controllers.HomeController.Index (Ocean.Labs.Web.Host) in 498.0713ms
+INFO  2024-09-23 13:03:16,975 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ocean.Labs.Web.Host.Controllers.HomeController.Index (Ocean.Labs.Web.Host)'
+INFO  2024-09-23 13:03:17,000 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger - -
+INFO  2024-09-23 13:03:17,011 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 1543.5996ms
+INFO  2024-09-23 13:03:17,049 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-09-23 13:03:17,054 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger - - - 301 - - 54.7236ms
+INFO  2024-09-23 13:03:17,138 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 89.0204ms
+INFO  2024-09-23 13:03:17,144 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - -
+INFO  2024-09-23 13:03:17,146 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - -
+INFO  2024-09-23 13:03:17,170 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2024-09-23 13:03:17,174 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui.css - - - 200 144929 text/css 31.0692ms
+INFO  2024-09-23 13:03:17,180 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - -
+INFO  2024-09-23 13:03:17,184 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2024-09-23 13:03:17,192 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2024-09-23 13:03:17,205 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 24.0803ms
+INFO  2024-09-23 13:03:17,220 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 69.5075ms
+INFO  2024-09-23 13:03:17,222 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2024-09-23 13:03:17,231 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Ocean.Labs\8.4.0\aspnet-core\src\Ocean.Labs.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2024-09-23 13:03:17,234 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 200 3697 text/javascript 13.1629ms
+INFO  2024-09-23 13:03:17,237 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2024-09-23 13:03:17,247 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+INFO  2024-09-23 13:03:17,251 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\Ocean.Labs\8.4.0\aspnet-core\src\Ocean.Labs.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2024-09-23 13:03:17,253 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 200 8029 text/javascript 16.4846ms
+INFO  2024-09-23 13:03:17,256 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+INFO  2024-09-23 13:03:17,260 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 13774 application/javascript;+charset=utf-8 11.5717ms
+INFO  2024-09-23 13:03:17,320 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.3183ms
+INFO  2024-09-23 13:03:17,688 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-09-23 13:03:17,691 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ocean.Labs.Web.Host.Controllers.AntiForgeryController.SetCookie (Ocean.Labs.Web.Host)'
+INFO  2024-09-23 13:03:17,706 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Ocean.Labs.Web.Host.Controllers.AntiForgeryController (Ocean.Labs.Web.Host).
+INFO  2024-09-23 13:03:17,731 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-09-23 13:03:17,740 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-09-23 13:03:17,748 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-23 13:03:17,763 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - -
+INFO  2024-09-23 13:03:17,767 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2024-09-23 13:03:17,770 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/favicon-32x32.png - - - 200 628 image/png 7.1459ms
+INFO  2024-09-23 13:03:17,891 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Ocean.Labs.Web.Host.Controllers.AntiForgeryController.SetCookie (Ocean.Labs.Web.Host) in 182.1467ms
+INFO  2024-09-23 13:03:17,894 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ocean.Labs.Web.Host.Controllers.AntiForgeryController.SetCookie (Ocean.Labs.Web.Host)'
+INFO  2024-09-23 13:03:17,898 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 209.8067ms
+INFO  2024-09-23 13:03:17,937 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 196.6266ms
+INFO  2024-09-23 13:03:20,181 [7    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-09-23 13:03:25,195 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-09-23 13:03:28,533 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - -
+INFO  2024-09-23 13:03:28,539 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ocean.Labs.Web.Host.Controllers.HomeController.Index (Ocean.Labs.Web.Host)'
+INFO  2024-09-23 13:03:28,543 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Ocean.Labs.Web.Host.Controllers.HomeController (Ocean.Labs.Web.Host).
+INFO  2024-09-23 13:03:28,553 [10   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-09-23 13:03:28,557 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2024-09-23 13:03:28,560 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Ocean.Labs.Web.Host.Controllers.HomeController.Index (Ocean.Labs.Web.Host) in 14.5972ms
+INFO  2024-09-23 13:03:28,562 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ocean.Labs.Web.Host.Controllers.HomeController.Index (Ocean.Labs.Web.Host)'
+INFO  2024-09-23 13:03:28,565 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - - - 302 - - 31.6548ms
+INFO  2024-09-23 13:03:28,569 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - -
+INFO  2024-09-23 13:03:28,575 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - - - 200 - text/html;charset=utf-8 6.1676ms
+INFO  2024-09-23 13:03:28,587 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - -
+INFO  2024-09-23 13:03:28,589 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - -
+INFO  2024-09-23 13:03:28,590 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - -
+INFO  2024-09-23 13:03:28,592 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - -
+INFO  2024-09-23 13:03:28,595 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - - 200 13774 application/javascript;+charset=utf-8 6.5830ms
+INFO  2024-09-23 13:03:28,606 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2024-09-23 13:03:28,607 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2024-09-23 13:03:28,610 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - - 304 - text/javascript 20.7567ms
+INFO  2024-09-23 13:03:28,612 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - - 304 - text/javascript 22.8947ms
+INFO  2024-09-23 13:03:28,618 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.8108ms
+INFO  2024-09-23 13:03:28,649 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - -
+INFO  2024-09-23 13:03:28,652 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ocean.Labs.Web.Host.Controllers.AntiForgeryController.SetCookie (Ocean.Labs.Web.Host)'
+INFO  2024-09-23 13:03:28,656 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Ocean.Labs.Web.Host.Controllers.AntiForgeryController (Ocean.Labs.Web.Host).
+INFO  2024-09-23 13:03:28,664 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - -
+INFO  2024-09-23 13:03:28,669 [17   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-09-23 13:03:28,673 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-09-23 13:03:28,676 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action Ocean.Labs.Web.Host.Controllers.AntiForgeryController.SetCookie (Ocean.Labs.Web.Host) in 18.6523ms
+INFO  2024-09-23 13:03:28,679 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ocean.Labs.Web.Host.Controllers.AntiForgeryController.SetCookie (Ocean.Labs.Web.Host)'
+INFO  2024-09-23 13:03:28,681 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - - 200 101 application/json;+charset=utf-8 31.2999ms
+INFO  2024-09-23 13:03:28,692 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 28.2923ms
+INFO  2024-09-23 13:03:30,202 [5    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-09-23 13:03:35,220 [11   ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
