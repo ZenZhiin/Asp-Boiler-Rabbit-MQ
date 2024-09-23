@@ -3,7 +3,7 @@ using Abp.Domain.Repositories;
 using Abp.ObjectMapping;
 using System;
 using System.Threading.Tasks;
-using Test.Test.Model;
+using Ocean.Labs.Model;
 
 public class OrderAppService : ApplicationService, IOrderAppService
 {

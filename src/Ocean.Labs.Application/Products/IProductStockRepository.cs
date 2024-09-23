@@ -1,5 +1,5 @@
 ﻿using Abp.Domain.Repositories;
-using Test.Test.Model;
+using Ocean.Labs.Model;
 
 public interface IProductStockRepository : IRepository<ProductStock, int>
 {

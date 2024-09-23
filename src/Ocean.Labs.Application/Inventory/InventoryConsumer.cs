@@ -6,7 +6,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 using System.Threading.Tasks;
-using Test.Test.Model;
+using Ocean.Labs.Model;
 
 public class InventoryConsumer
 {

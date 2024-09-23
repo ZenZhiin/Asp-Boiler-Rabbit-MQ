@@ -1,7 +1,7 @@
 ﻿using Abp.Application.Services;
 using Abp.Domain.Repositories;
 using System.Threading.Tasks;
-
+using Ocean.Labs.Model;
 public class ProductAppService : ApplicationService, IProductAppService
 {
     private readonly IRepository<Product, int> _productRepository;

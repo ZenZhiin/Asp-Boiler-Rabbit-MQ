@@ -1,4 +1,4 @@
-﻿using Test.Test.Model;
+﻿using Ocean.Labs.Model;
 
 public class OrderCreatedEvent
 {
