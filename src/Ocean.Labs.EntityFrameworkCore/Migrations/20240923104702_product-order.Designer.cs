@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Ocean.Labs.EntityFrameworkCore;
 
@@ -11,9 +12,11 @@ using Ocean.Labs.EntityFrameworkCore;
 namespace Ocean.Labs.Migrations
 {
     [DbContext(typeof(LabsDbContext))]
-    partial class LabsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240923104702_product-order")]
+    partial class productorder
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -43,7 +43,7 @@ namespace Ocean.Labs.Web.Startup
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<LabsDbContext>(options => options.UseSqlServer(_appConfiguration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<LabsDbContext>(options => options.UseSqlServer(_appConfiguration.GetConnectionString("Default")));
 
             services.AddSingleton(new RabbitMqConfig("localhost", "guest", "guest"));
 

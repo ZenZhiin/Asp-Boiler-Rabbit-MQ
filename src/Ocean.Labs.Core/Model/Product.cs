@@ -1,10 +1,11 @@
 ﻿using Abp.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ocean.Labs.Model
 {
     public class Product : Entity<int>
     {
+        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
