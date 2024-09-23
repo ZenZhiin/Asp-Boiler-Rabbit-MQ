@@ -15,6 +15,6 @@ namespace Ocean.Labs
         /// Default pass phrase for SimpleStringCipher decrypt/encrypt operations
         /// </summary>
         public static readonly string DefaultPassPhrase =
-            DebugHelper.IsDebug ? "gsKxGZ012HLL3MI5" : "8240205e3efd43d6a54b436479a7bcf0";
+            DebugHelper.IsDebug ? "gsKxGZ012HLL3MI5" : "4778b4acd6104313bc18b5570f897faa";
     }
 }
