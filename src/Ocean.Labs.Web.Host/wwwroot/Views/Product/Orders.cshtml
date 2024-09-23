@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Ocean.Labs.Model.Order>
+
+<h1>Orders</h1>
+<table class="table">
+    <tr>
+        <th>Order Number</th>
+        <th>Product ID</th>
+        <th>Quantity</th>
+        <th>Amount</th>
+        <th>Order Date</th>
+    </tr>
+    @foreach (var order in Model)
+    {
+        <tr>
+            <td>@order.OrderNumber</td>
+            <td>@order.ProductId</td>
+            <td>@order.Quantity</td>
+            <td>@order.Amount</td>
+            <td>@order.OrderDate</td>
+        </tr>
+    }
+</table>

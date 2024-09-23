@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Ocean.Labs.Model.Product>
+
+    <h1>Products</h1>
+    <table class="table">
+        <tr>
+            <th>Product Name</th>
+            <th>Action</th>
+        </tr>
+        @foreach (var product in Model)
+        {
+        <tr>
+            <td>@product.Name</td>
+            <td>
+                <form asp-action="PlaceOrder" method="post">
+                    <input type="hidden" name="productId" value="@product.Id" />
+                    Quantity: <input type="number" name="quantity" min="1" required />
+                    <button type="submit" class="btn btn-primary">Order</button>
+                </form>
+            </td>
+        </tr>
+        }
+    </table>

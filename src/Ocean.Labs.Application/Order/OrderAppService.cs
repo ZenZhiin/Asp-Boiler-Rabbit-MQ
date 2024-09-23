@@ -36,7 +36,7 @@ public class OrderAppService : ApplicationService, IOrderAppService
             ProductId = input.ProductId,
             OrderNumber = GenerateOrderNumber(),
             Quantity = input.Quantity,
-            TotalAmount = orderAmount
+            Amount = orderAmount
         };
         await _orderRepository.InsertAsync(order);
 

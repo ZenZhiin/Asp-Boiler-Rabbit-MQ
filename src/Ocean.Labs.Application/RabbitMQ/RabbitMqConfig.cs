@@ -1,27 +1,31 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using RabbitMQ.Client;
 
-public static class RabbitMqConfig
+namespace Ocean.Labs.RabbitMQ
 {
-    public static void AddRabbitMq(this IServiceCollection services)
+    public class RabbitMqConfig
     {
-        services.AddSingleton<IConnection>(sp =>
-        {
-            var factory = new ConnectionFactory
-            {
-                HostName = "localhost",
-                UserName = "guest",
-                Password = "guest"
-            };
-            return factory.CreateConnection();
-        });
+        private readonly ConnectionFactory _connectionFactory;
 
-        services.AddSingleton<IModel>(sp =>
+        public RabbitMqConfig(string hostname, string username, string password)
         {
-            var connection = sp.GetRequiredService<IConnection>();
-            var channel = connection.CreateModel();
-            channel.QueueDeclare(queue: "orderQueue", durable: false, exclusive: false, autoDelete: false, arguments: null);
-            return channel;
-        });
+            _connectionFactory = new ConnectionFactory
+            {
+                HostName = hostname,
+                UserName = username,
+                Password = password
+            };
+        }
+
+        public IConnection GetConnection()
+        {
+            return _connectionFactory.CreateConnection();
+        }
+
+        public IModel GetChannel()
+        {
+            var connection = GetConnection();
+            return connection.CreateModel();
+        }
     }
 }

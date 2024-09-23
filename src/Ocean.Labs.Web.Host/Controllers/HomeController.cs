@@ -20,7 +20,7 @@ namespace Ocean.Labs.Web.Host.Controllers
 
         public IActionResult Index()
         {
-            return Redirect("/swagger");
+            return Redirect("/Product");
         }
 
         /// <summary>

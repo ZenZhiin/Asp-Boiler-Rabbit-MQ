@@ -20,6 +20,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
 using System.IO;
+using Ocean.Labs.Model;
+using Ocean.Labs.RabbitMQ;
+using Ocean.Labs.Message;
 
 namespace Ocean.Labs.Web.Host.Startup
 {
@@ -40,6 +43,13 @@ namespace Ocean.Labs.Web.Host.Startup
 
         public void ConfigureServices(IServiceCollection services)
         {
+            // Register connection factories
+            services.AddSingleton(new RabbitMqConfig("localhost", "guest", "guest"));
+
+            // Register ProductStock and Messaging services
+            services.AddScoped<ProductStock>();
+            services.AddScoped<MessagingService>();
+
             //MVC
             services.AddControllersWithViews(
                 options => { options.Filters.Add(new AbpAutoValidateAntiforgeryTokenAttribute()); }
