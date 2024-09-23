@@ -3,6 +3,7 @@ using Abp.Zero.EntityFrameworkCore;
 using Ocean.Labs.Authorization.Roles;
 using Ocean.Labs.Authorization.Users;
 using Ocean.Labs.MultiTenancy;
+using Ocean.Labs.Model;
 
 namespace Ocean.Labs.EntityFrameworkCore
 {
@@ -14,5 +15,9 @@ namespace Ocean.Labs.EntityFrameworkCore
             : base(options)
         {
         }
+
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductStock> ProductStocks { get; set; }
     }
 }

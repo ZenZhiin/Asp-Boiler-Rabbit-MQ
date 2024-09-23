@@ -21,6 +21,11 @@ using Abp.Json;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.WebEncoders;
 using Newtonsoft.Json.Serialization;
+using Ocean.Labs.Model;
+using Microsoft.EntityFrameworkCore;
+using Ocean.Labs.EntityFrameworkCore;
+using Ocean.Labs.Message;
+using Ocean.Labs.RabbitMQ;
 
 
 namespace Ocean.Labs.Web.Startup
@@ -38,6 +43,10 @@ namespace Ocean.Labs.Web.Startup
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<LabsDbContext>(options => options.UseSqlServer(_appConfiguration.GetConnectionString("DefaultConnection")));
+
+            services.AddSingleton(new RabbitMqConfig("localhost", "guest", "guest"));
+
             // MVC
             services.AddControllersWithViews(
                     options =>
@@ -62,7 +71,9 @@ namespace Ocean.Labs.Web.Startup
             {
                 options.TextEncoderSettings = new TextEncoderSettings(UnicodeRanges.All);
             });
-            
+
+            services.AddScoped<MessagingService>();
+            services.AddScoped<ProductStock>();
             services.AddScoped<IWebResourceManager, WebResourceManager>();
 
             services.AddSignalR();

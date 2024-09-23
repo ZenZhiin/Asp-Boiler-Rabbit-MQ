@@ -16,4 +16,11 @@ public class ProductAppService : ApplicationService, IProductAppService
         var product = await _productRepository.GetAsync(productId);
         return ObjectMapper.Map<ProductDto>(product);
     }
+
+    public async Task<ProductDto> CreateProductAsync(string name, decimal price)
+    {
+       _productRepository.Insert(new Product(name, price));
+        return null;
+    }
+
 }
